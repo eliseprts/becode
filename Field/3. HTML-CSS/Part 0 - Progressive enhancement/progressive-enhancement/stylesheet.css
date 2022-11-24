@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Open sans";
+  src: url(/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+p,
+ul,
+table {
+  font-family: "Open sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #202427;
+}
+h1 {
+  font-family: "Open sans", sans-serif;
+  background-color: #eddc47;
+}
+h2 {
+  font-family: "Open sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  font-weight: lighter;
+  color: #0d0e0f;
+}
+a:visited {
+  color: firebrick;
+}
+a:hover,
+a:focus,
+a:active {
+  color: white;
+}
+body {
+  max-width: 90%;
+  margin: 25px;
+  background: linear-gradient(180deg, #a7d2d3, #1b5657);
+  background-image: url(/images/background-vagues.jpeg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+blockquote,
+q {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: "Open sans", sans-serif;
+  font-size: 160%;
+  font-style: italic;
+  background: #f5f4f4;
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-left-color: firebrick;
+  padding-left: 30px;
+}
+q.villagers {
+  border-left-color: #1b5657;
+}
+q.farmer {
+  border-left-color: #eddc47;
+}
+.good,
+.bad {
+  text-transform: capitalize;
+}
+.good {
+  color: green;
+}
+.bad {
+  color: red;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  caption-side: bottom;
+}
+th,
+td {
+  border: 1px solid #a5a5a5;
+  text-align: center;
+}
+thead {
+  background-color: #a5a5a5;
+  color: white;
+}
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+tbody tr:nth-child(even) {
+  background-color: #f5f4f4;
+}
+table caption {
+  font-size: smaller;
+}
+li.internetGood {
+  background: url(/images/bien.png) no-repeat 350px;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+li.internetEvil {
+  background: url(/images/mal.png) no-repeat 350px;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+li.internetCat {
+  background: url(/images/chat.png) no-repeat 350px;
+  background-size: contain;
+  padding: 10px 10px 10px 10px;
+}
+img.man {
+  float: left;
+  padding-right: 20px;
+}
+figure.mars {
+  caption-side: bottom;
+  float: right;
+  margin-right: auto;
+}
+.story {
+  clear: both;
+}
+figure.chineseFarmer {
+  float: left;
+  padding-right: 20px;
+}

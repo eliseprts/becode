@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url(fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: "Montserrat Italic Bold";
+  src: url(fonts/Montserrat-BoldItalic.ttf);
+}
+/* Général */
+body {
+  margin: 50px 100px 50px 100px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #26474e;
+  background-color: rgb(245, 245, 245);
+}
+h1,
+h3,
+h4 {
+  font-family: "Montserrat Bold", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Montserrat Italic Bold", Arial, Helvetica, sans-serif;
+  clear: both;
+  padding-top: 25px;
+}
+h3 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #76cdcd;
+}
+h4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #f9968b;
+}
+li {
+  list-style-type: none;
+}
+/* Header */
+.header h1 {
+  font-size: 60px;
+  color: #f27438;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+blockquote {
+  font-size: 22px;
+  font-style: italic;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 200px;
+}
+blockquote span {
+  color: #f27438;
+  font-size: 40px;
+}
+img {
+  display: block;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #26474e;
+  margin-right: 50px;
+  float: left;
+  position: top left;
+}
+/* About */
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 5px 20px 5px 20px;
+  border: 1px solid rgb(245, 245, 245);
+}
+td:nth-child(odd) {
+  background-color: #f9968b;
+  font-weight: bold;
+}
+td:nth-child(even) {
+  background-color: #f7d6d3;
+  font-style: italic;
+}
+/* Hobbies */
+.hobbies span {
+  padding-right: 10px;
+  color: #f9968b;
+}
+/* Count on me */
+.countOnMe span {
+  color: #f9968b;
+}
+/* Footer */
+footer {
+  padding-top: 50px;
+  text-align: center;
+  color: #bfbfbf;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:visited {
+  color: #26474e;
+}
+a:hover {
+  color: #f27438;
+}

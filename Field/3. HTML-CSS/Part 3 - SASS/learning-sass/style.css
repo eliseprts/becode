@@ -1,0 +1,44 @@
+html {
+  font-size: 0.75em;
+}
+
+.foo {
+  background: orange;
+}
+.foo p {
+  color: blue;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 2em;
+}
+.foo.block {
+  border: 1px solid;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.box {
+  border: 1px solid #ccc;
+}
+
+.user-dialog-box, .alert-winning-user {
+  border: 10px solid gray;
+  padding: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.alert-winning-user {
+  border-color: green;
+}
+
+.alert-winning-user {
+  border: 10px solid green;
+  padding: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=style.css.map */

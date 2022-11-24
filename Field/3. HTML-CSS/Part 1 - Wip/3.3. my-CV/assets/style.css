@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Général */
+body {
+  margin: 50px 100px 50px 100px;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 16px;
+  color: #313844;
+  line-height: 25px;
+  background-image: url(assets/blob2.png);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position-x: -30px;
+  background-position-y: -90px;
+}
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+h3 {
+  color: #b76e22;
+  font-size: 22px;
+}
+.lighter {
+  font-weight: 100;
+  font-size: 14px;
+}
+/* Header */
+.header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.header h1 {
+  font-size: 50px;
+  color: #b76e22;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.header h2 {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 300px;
+}
+.header img {
+  height: 200px;
+  border-radius: 50%;
+  position: top left;
+}
+
+/* Aside */
+.aside {
+  display: grid;
+  grid-template-rows: 15% 10% 50% 25%;
+  font-weight: bold;
+  padding: 40px 20px 20px 20px;
+}
+.aside li {
+  list-style-type: none;
+}
+.aside a {
+  text-decoration: none;
+  color: #313844;
+}
+.aside a:visited {
+  color: #313844;
+}
+.aside a:hover {
+  color: #efd1bc;
+}
+.certificate,
+.skillsContainer,
+.hobbies {
+  margin-top: 25px;
+}
+
+.skills {
+  margin-top: 10px;
+}
+
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hobbyContainer {
+  width: 85px;
+  height: 85px;
+  background-color: #efd1bc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies img {
+  width: 55px;
+  height: 55px;
+  filter: invert(21%) sepia(19%) saturate(535%) hue-rotate(179deg)
+    brightness(91%) contrast(93%);
+}
+
+/* Main */
+.main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.timeline {
+  padding-left: 20px;
+  padding-top: 40px;
+}
+
+.timeline h4 {
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.timeline h5 {
+  font-size: 16px;
+}
+
+.timeline li {
+  list-style-type: none;
+  margin-left: 50px;
+  font-weight: 100;
+}
+
+.bullet {
+  color: #efd1bc;
+}
