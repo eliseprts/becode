@@ -14,10 +14,10 @@ The first month focuses on setting up a good basis:
 2. [MarkDown](/2.%20Markdown)
 3. [HTML-CSS](/3.%20HTML-CSS)
 
-    0. [Progressive enhancement](3.%20HTML-CSS/Part%200%20-%20Progressive%20enhancement/)
-    1. [Wip](/3.%20HTML-CSS/Part%201%20-%20Wip/)
-    2. [Responsive](/3.%20HTML-CSS/Part%202%20-%20Responsive/)
-    
+    [Progressive enhancement](3.%20HTML-CSS/Part%200%20-%20Progressive%20enhancement/)
+    [Wip](/3.%20HTML-CSS/Part%201%20-%20Wip/)
+    [Responsive](/3.%20HTML-CSS/Part%202%20-%20Responsive/)
+
 4. [SASS](/4.%20SASS)
 5. [Introduction to JS](/5.%20Intro%20JS)
 6. [Challenge](/6.%20Challenge)
