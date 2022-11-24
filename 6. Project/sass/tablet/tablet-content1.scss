@@ -1,0 +1,14 @@
+.content1 {
+  .content1Container {
+    width: 652px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    .content1Img {
+      transform: translateY(-77px);
+    }
+  }
+}

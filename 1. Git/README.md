@@ -1,7 +1,5 @@
 # THE FIELD | Git Challenge 'Exquisite Corpse'
 
-_Repo created as part of the [BeCode web development training](https://becode.org/fr/apprendre/developpeur-web-junior/)_
-
 * Mode : group of four people
 * Type of challenge : consolidation
 * Duration : 1 day

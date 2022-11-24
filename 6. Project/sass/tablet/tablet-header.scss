@@ -1,0 +1,80 @@
+header {
+  width: 652px;
+
+  nav {
+    width: 652px;
+
+    .shadesLogo {
+      margin-top: 9px;
+    }
+  }
+
+  .navLinksContent {
+    width: auto;
+    height: auto;
+    position: static;
+    right: none;
+
+    .navLinks {
+      display: block;
+      width: auto;
+      height: 100%;
+      
+      position: static;
+
+      transform: translate(0, 0);
+      background-color: transparent;
+      
+      z-index: inherit;
+
+      ul {
+        width: auto;
+        height: 100%;
+
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 25px;
+
+        li {
+          width: auto;
+          display: list-item;
+
+          a {
+            color: #000;
+            
+            &:visited {
+              color: #1f1f1f;
+            }
+
+            &:hover {
+              color: #258aff;
+            }
+            
+          }
+        }
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .getStarted {
+    display: block;
+    width: 137px;
+    height: 40px;
+    border: 2px solid #258aff;
+    border-radius: 3px;
+    background-color: #e3eef8;
+    color: #258aff;
+
+    cursor: pointer;
+  }
+
+  .headerContainer {
+    width: 652px;
+  }  
+
+}

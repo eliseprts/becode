@@ -1,7 +1,5 @@
 # THE FIELD | Part 0 of the HTML-CSS course : final exercise
 
-_Repo created as part of the [BeCode web development training](https://becode.org/fr/apprendre/developpeur-web-junior/)_
-
 * Mode : solo work
 * Type of challenge : consolidation
 * Duration : 3 days

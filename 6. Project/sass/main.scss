@@ -1,0 +1,51 @@
+// font-family: 'Karla', sans-serif;
+// font-family: 'Rubik', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik&display=swap");
+
+@import "./settings.scss"; // global settings.
+
+@import "./mobile/header.scss"; // header part.
+
+@import "./mobile/features.scss"; // features part
+
+@import "./mobile/content-1.scss"; // content 1 part.
+
+@import "./mobile/content2.scss"; // content 2 part
+
+@import "./mobile/testimonial.scss"; // testimonial part
+
+@import "./mobile/price.scss"; // price part.
+
+@import "./mobile/footer.scss"; // footer.
+
+@media screen and (min-width: 768px) {
+
+  @import "./tablet/tablet-header.scss"; // header tablet.
+
+  @import "./tablet/tablet-features.scss"; // features tablet.
+
+  @import "./tablet/tablet-content1.scss"; // content 1 tablet.
+
+  @import "./tablet/tablet-content2.scss"; // content 2 tablet.
+
+  @import "./tablet/tablet-testimonial.scss"; // testimonial tablet.
+
+  @import "./tablet/tablet-footer.scss"; // footer tablet.
+}
+
+@media screen and (min-width: 1366px) {
+
+  @import "./desktop/desktop-header.scss"; // header desktop.
+
+  @import "./desktop/desktop-features.scss"; // features desktop.
+
+  @import "./desktop/desktop-content1.scss"; // content 1 desktop.
+
+  @import "./desktop/desktop-content2.scss"; // content 2 desktop.
+
+
+
+  @import "./desktop/desktop-price.scss"; // price desktop.
+
+  @import "./desktop/desktop-footer.scss"; // footer destkop.
+}

@@ -1,0 +1,15 @@
+footer {
+    width: 1100px;
+    flex-direction: row;
+    margin: 38px auto 38px auto;
+    
+    .footerMain {
+        width: 400px;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    .footerLinks {
+        gap: 100px;
+    }
+}

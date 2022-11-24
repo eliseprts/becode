@@ -8,16 +8,21 @@ The first month focuses on setting up a good basis:
 - [x] Frontend problem solving
 - [x] Soft skills
 
+## Technologies used
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 ## Structure
 0. Terminal
 1. [Git](/1.%20Git/)
 2. [MarkDown](/2.%20Markdown)
 3. [HTML-CSS](/3.%20HTML-CSS)
-
-    [Progressive enhancement](3.%20HTML-CSS/Part%200%20-%20Progressive%20enhancement/)
-    [Wip](/3.%20HTML-CSS/Part%201%20-%20Wip/)
-    [Responsive](/3.%20HTML-CSS/Part%202%20-%20Responsive/)
-
 4. [SASS](/4.%20SASS)
 5. [Introduction to JS](/5.%20Intro%20JS)
-6. [Challenge](/6.%20Challenge)
+6. [Project](/6.%20Project)

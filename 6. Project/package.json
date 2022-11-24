@@ -1,0 +1,22 @@
+{
+  "name": "end-of-field-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./assets/stylesheets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliseprts/end-of-field-challenge.git"
+  },
+  "author": "Elise, chris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliseprts/end-of-field-challenge/issues"
+  },
+  "homepage": "https://github.com/eliseprts/end-of-field-challenge#readme",
+  "dependencies": {
+    "sass": "^1.49.8"
+  }
+}

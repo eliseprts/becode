@@ -1,0 +1,9 @@
+.testimonialBoxes {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.clients {
+  flex-direction: row;
+  flex-wrap: nowrap;
+}

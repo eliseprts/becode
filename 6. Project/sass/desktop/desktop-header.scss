@@ -1,0 +1,15 @@
+header {
+    width: 1100px;
+
+    nav {
+        width: 1100px;
+
+        .navLinksContent {
+            transform: translateX(-200px);
+        }
+    }
+}
+
+.headerContainer {
+    transform: scale(1.2);
+}

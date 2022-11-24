@@ -1,0 +1,20 @@
+.price {
+    height: 700px;
+    
+    .priceHeader {
+        width: 100%;
+
+        h3 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .cardContent {
+        width: 725px;
+        flex-direction: row;
+    }
+}
